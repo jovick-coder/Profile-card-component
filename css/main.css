@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(227, 10%, 46%);
+    width: 99%;
+    position: relative;
+    font-size: 12px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    position: relative;
+  }
+  .card {
+    border: solid;
+    border-radius: 20px;
+    margin: auto 0;
+    background-color: #fff;
+    width: 300px;
+  }
+  .top-card-img-div img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+  .profile-img-div {
+    display: flex;
+    margin-top: -60px;
+  }
+  .profile-img-div img {
+    margin: 0 auto;
+    border: solid #fff 5px;
+    border-radius: 50%;
+  }
+  .text-div {
+    height: 150px;
+    text-align: center;
+  }
+  .text-div .name-div {
+    max-height: 50px;
+    margin-bottom: 40px;
+  }
+  .text-div .name {
+    margin: 10px 5px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-footer span{
+    margin: 2px 0;
+  }
+  b{
+    color: hsl(229, 23%, 23%);
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .pattern-top{
+    width: 900px;
+    
+    display: initial;
+position: absolute;
+top: 0;
+left: 0;
+margin-left: -500px;
+
+margin-top: -400px;
+
+}
+
+.pattern-bottom-div image{
+    width: 100%;
+  }
+  .pattern-bottom-div{
+    /* border: solid; */
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
